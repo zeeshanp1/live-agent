@@ -1,0 +1,33 @@
+{
+  "name": "live-agent",
+  "version": "0.1.0",
+  "description": "Pendant MCP: a local-first, zero-cloud companion app for a wearable AI pendant, with local MCP-style tool execution.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "zeeshanp1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeshanp1/live-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeeshanp1/live-agent/issues"
+  },
+  "homepage": "https://github.com/zeeshanp1/live-agent#readme",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "wearable",
+    "local-first",
+    "privacy",
+    "esp32-s3",
+    "web-bluetooth"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test"
+  }
+}

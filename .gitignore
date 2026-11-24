@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build / deploy output
+_site/
+dist/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
